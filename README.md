@@ -26,6 +26,12 @@ The main objectives of this project are:
 
 The dataset contains traffic accident records collected from multiple traffic monitoring sources across the United States.
 
+> **Note:** The original dataset is approximately **3 GB**, so it is **not included** in this repository due to GitHub's file size limitations.
+
+You can download the dataset from Kaggle:
+
+https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
+
 ### Features Used
 
 | Feature | Description |
@@ -44,8 +50,6 @@ The dataset contains traffic accident records collected from multiple traffic mo
 | Railway | Railway crossing nearby |
 | Stop | Stop sign nearby |
 | Traffic_Signal | Traffic signal nearby |
-
----
 
 ## Tools and Libraries
 
@@ -102,12 +106,11 @@ The project includes the following visualizations:
 ## Folder Structure
 
 ```
-PRODIGY_DS_04/
+SCT_DS_04/
 │
-├── US_Accidents_500k.csv
-├── Task04.ipynb
+├── Traffic_Accident_Pattern_Analysis.ipynb
 ├── README.md
-└── output.png
+└── output_images/
 ```
 
 ---
